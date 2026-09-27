@@ -8,7 +8,7 @@ Poseidon flies low and steady over water, then performs gentle lateral evasive m
 
 - Sea-skimming cruise profile with inertial midcourse and optical terminal guidance.
 - Custom R-460 model and textures.
-- Available on EW1 and FastBomber1 hardpoints.
+- Available on Medusa and Alkyon hardpoints.
 - Corrected target eligibility, OUT OF ARC cue, and pylon visual after launch.
 
 ## Requirements
