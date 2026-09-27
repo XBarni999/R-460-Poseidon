@@ -10,6 +10,8 @@ Poseidon flies low and steady over water, then performs gentle lateral evasive m
 - Custom R-460 model and textures.
 - Available on Medusa and Alkyon hardpoints.
 - Corrected target eligibility, OUT OF ARC cue, and pylon visual after launch.
+<img width="1920" height="808" alt="image" src="https://github.com/user-attachments/assets/8c63f993-92a4-4fd9-a407-8fe0f72d3a3f" />
+
 
 ## Requirements
 
