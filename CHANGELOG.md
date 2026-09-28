@@ -1,5 +1,12 @@
 # Changelog
 
+## 1.4.1 — 2026-09-28
+
+- Reduced both R-460 missile prices from 30 to 3 million.
+- Reduced radar size from 0.01 to 0.008.
+- Increased armor tier from 0.1 to 0.12, damage tolerance from 30 to 35, and pierce/blast armor from 10 to 12.
+- Applied the same balance to aircraft- and TEL-launched missiles.
+
 ## 1.4.0 — 2026-09-28
 
 - Equipped the TEL missile with the vanilla AShM1 VLS booster model and native separation component.
