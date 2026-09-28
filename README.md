@@ -1,28 +1,63 @@
 # R-460 Poseidon
 
-Anti-ship cruise missile mod for Nuclear Option, built with NOBlueprinter.
+An anti-ship cruise missile mod for **Nuclear Option**, built with **NOBlueprinter**.
 
-Poseidon flies low and steady over water, then performs gentle lateral evasive maneuvers within approximately 3.5 km of its target. Version 1.0.0 reduces the blast yield and penetration damage compared with the test build.
+Poseidon launches from compatible aircraft or the R-460 Poseidon TEL. It follows a low route over water, then makes lateral evasive maneuvers during its terminal approach. Its warhead is tuned for a strong single hit without the excessive damage of the early test build.
 
 ## Features
 
 - Sea-skimming cruise profile with inertial midcourse and optical terminal guidance.
+- Terminal evasive maneuvers within approximately 6 km of the target.
 - Custom R-460 model and textures.
-- Available on Medusa and Alkyon hardpoints.
-- Corrected target eligibility, OUT OF ARC cue, and pylon visual after launch.
-<img width="1920" height="808" alt="image" src="https://github.com/user-attachments/assets/8c63f993-92a4-4fd9-a407-8fe0f72d3a3f" />
+- Available on EW1 and FastBomber1 hardpoints.
+- R-460 Poseidon TEL: a separate mobile ground launcher with two missiles, based on the game's MSV Ballistic Missile Launcher. It attacks tracked enemy ships within 108 km.
+- Reduced explosive yield and penetration compared with the test build.
 
+![R-460 Poseidon in Nuclear Option](https://github.com/user-attachments/assets/8c63f993-92a4-4fd9-a407-8fe0f72d3a3f)
 
 ## Requirements
 
-Nuclear Option 0.34.2, BepInEx, and [NOBlueprinter](https://github.com/nikkorap/NOBlueprinter-Releases/releases/latest).
+- Nuclear Option. Built against game version **0.34.2**.
+- BepInEx and [NOBlueprinter](https://github.com/nikkorap/NOBlueprinter-Releases/releases/latest). The TEL target filter uses the included BepInEx plugin.
 
-## Installation
+## Install
 
-Place `R-460 Poseidon_1.0.0.nobp` in `Nuclear Option/BepInEx/plugins`. Remove older Poseidon `.nobp` files first. Select a hostile ship before launch.
+1. Install BepInEx and NOBlueprinter for Nuclear Option.
+2. Place `R-460 Poseidon_1.4.0.nobp` and `PoseidonTELRuntime.dll` in `Nuclear Option/BepInEx/plugins`. Both files are included in the install ZIP.
+3. Start the game, equip R-460 Poseidon on a compatible aircraft or place the R-460 Poseidon TEL as a ground unit. The TEL automatically engages enemy ships that its faction has detected within 108 km.
+
+Remove any older `R-460 Poseidon_*.nobp` file before installing this version to avoid loading two copies of the weapon. Other unit types are unaffected by the TEL target filter.
 
 ## Source
 
-The source ZIP can be imported through Blueprinter Editor > Blueprinter > Import Source ZIP. It uses game asset placeholders and does not include original game assets.
+The editable Unity assets and the TEL runtime source are in the separate `R-460-Poseidon-v1.4.0-source.zip` archive. This is a raw project snapshot; follow `SOURCE_README.md` inside the archive to use it. Blueprinter resolves local game asset placeholders against the installed game; the mod package does not include original game assets.
 
-This is an unofficial community mod.
+## Version 1.4.0
+
+- Added the game's AShM1 VLS booster model, booster audio, fire, smoke, trail, and native booster separation behavior to the TEL missile.
+- Added the game's cruise motor particle effect to both aircraft- and TEL-launched missiles; the TEL cruise motor starts after the five-second booster burn.
+- Corrected missile target classification and icons so air-defense systems can recognize the R-460 as a missile.
+- Retained the TEL's ship-only datalink targeting within 108 km.
+
+See [CHANGELOG.md](CHANGELOG.md) for release details.
+
+## Version 1.2.0
+
+- TEL fire control now uses the faction datalink and checks targets every two seconds, without waiting for strategic weapon authorization.
+- TEL only considers detected enemy ships within 108 km. Ground targets, aircraft and submarines are excluded by the included runtime plugin.
+- Improved the missile's target eligibility against armored ships.
+
+## Version 1.1.0
+
+- Added the R-460 Poseidon TEL with two launch positions and two missiles.
+- Extended terminal guidance to 6.5 km and made lateral maneuvers stronger over the final 6 km.
+- Removed the minimum speed threshold for the maneuvers.
+
+## Version 1.0.0
+
+- Fixed target eligibility and the incorrect `OUT OF ARC` cue.
+- Stabilized flight and low-altitude ship approach.
+- Fixed the mounted visual remaining on the pylon after launch.
+- Added restrained terminal weaving and reduced warhead damage.
+
+Nuclear Option and NOBlueprinter are separate projects; this is an unofficial community mod.
