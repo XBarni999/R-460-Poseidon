@@ -1,5 +1,16 @@
 # Changelog
 
+## 1.5.3 - 2026-10-03
+
+- Complete visual overhaul & 2079 modernization:
+  - Redesigned sleek supersonic aerodynamic fuselage (0.49 m diameter) eliminating the bulky profile while preserving supersonic handling.
+  - Detailed 16-petal vectoring exhaust nozzle with articulating titanium thermal bloom petals and boattail maintenance access panel.
+  - Full 3D interior combustion chamber: sealed turbine bulkhead, 24 aerodynamic stator blades, concentric afterburner flame holder spray rings, 8 guide vanes, and central tail bullet cone.
+  - Symmetrical machined aluminum attitude control thruster pods on both starboard (+X) and port (-X) forward radome flanks.
+  - Masterwork 2K PBR textures: naval anthracite coating, English military stencils (R-460 POSEIDON, NO STEP), hazard stripes, and calibrated dark PBR metallic/smoothness (fixing previous washed-out engine reflections in Unity).
+- Fixed R-460N Tactical Nuclear missile encyclopedia & cost:
+  - Corrected unit definition reference in R_460_Poseidon_Nuclear.prefab so the in-game Encyclopedia accurately reports the 34 million cost, nuclear anti-ship role, and 1.5 kt yield instead of falling back to the conventional missile definition.
+
 ## 1.5.0 — 2026-09-29
 
 - Added a twin Poseidon mount with two missiles and one launch per trigger press for Medusa, Alkyon, and Darkreach hardpoints.

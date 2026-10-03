@@ -24,14 +24,20 @@ Poseidon launches from compatible aircraft or the R-460 Poseidon TEL. It follows
 ## Install
 
 1. Install BepInEx and NOBlueprinter for Nuclear Option.
-2. Place `R-460 Poseidon_1.5.0.nobp` and `PoseidonTELRuntime.dll` in `Nuclear Option/BepInEx/plugins`. Both files are included in the install ZIP.
+2. Place `R-460 Poseidon_1.5.3.nobp` and `PoseidonTELRuntime.dll` in `Nuclear Option/BepInEx/plugins`. Both files are included in the install ZIP.
 3. Start the game, equip R-460 Poseidon on a compatible aircraft or place the R-460 Poseidon TEL as a ground unit. The TEL automatically engages enemy ships that its faction has detected within 108 km.
 
 Remove any older `R-460 Poseidon_*.nobp` file before installing this version to avoid loading two copies of the weapon. Other unit types are unaffected by the TEL target filter.
 
 ## Source
 
-The editable Unity assets and the TEL runtime source are in the separate `R-460-Poseidon-v1.5.0-source.zip` archive. This is a raw project snapshot; follow `SOURCE_README.md` inside the archive to use it. Blueprinter resolves local game asset placeholders against the installed game; the mod package does not include original game assets.
+The editable Unity assets and the TEL runtime source are in the separate `R-460-Poseidon-v1.5.3-source.zip` archive. This is a raw project snapshot; follow `SOURCE_README.md` inside the archive to use it. Blueprinter resolves local game asset placeholders against the installed game; the mod package does not include original game assets.
+
+## Version 1.5.3
+
+- Complete visual overhaul: refined 0.49m sleek aerodynamic profile, 16-petal vectoring nozzle, fully modeled interior combustion chamber and turbine, and dual machined aluminum nose thrusters.
+- Masterwork 2K PBR textures: tactical naval anthracite finish, English military stencils, and calibrated PBR metallic/smoothness.
+- Fixed R-460N Tactical Nuclear encyclopedia definition and 34M price display in-game.
 
 ## Version 1.5.0
 
