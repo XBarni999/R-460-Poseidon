@@ -14,7 +14,8 @@ Poseidon launches from compatible aircraft or the R-460 Poseidon TEL. It follows
 - R-460 Poseidon TEL: a separate mobile ground launcher with two missiles, based on the game's MSV Ballistic Missile Launcher. It attacks tracked enemy ships within 108 km.
 - Reduced explosive yield and penetration compared with the test build.
 
-![R-460 Poseidon in Nuclear Option](https://github.com/user-attachments/assets/8c63f993-92a4-4fd9-a407-8fe0f72d3a3f)
+<img width="1027" height="500" alt="image" src="https://github.com/user-attachments/assets/dfd549c9-5307-4e51-b76e-aba308811e8c" />
+
 
 ## Requirements
 
