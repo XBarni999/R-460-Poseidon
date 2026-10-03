@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.5.4 - 2026-10-04
+
+- **New Engine Exhaust Visuals**: Overhauled particle systems and motor exhaust effects for both air-launched and TEL variants, featuring realistic jet plume and afterburner thrust visuals.
+- **Damage Attribution & Kill Credit Fix**: Resolved an issue where missile warhead detonation was treated as neutral environmental damage. PoseidonTELRuntime now hooks missile spawn to guarantee proper NetworkownerID and NetworkHQ propagation, ensuring full damage and kill credits are awarded to the firing unit.
 ## 1.5.3 - 2026-10-03
 
 - Complete visual overhaul & 2079 modernization:
@@ -34,3 +38,4 @@
 - Started the TEL cruise motor after the five-second booster burn.
 - Set both missile definitions' missile identity to 1 and air identity to 0.14, matching the game's anti-ship missile convention, and added standard missile icons for target recognition.
 - Kept the existing radar size of 0.01 and the TEL's ship-only targeting logic.
+
